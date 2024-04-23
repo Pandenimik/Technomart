@@ -1,12 +1,227 @@
 <!DOCTYPE html>
 <html lang="ru">
   <head>
-    <meta charset="utf-8">
-    <title>HTML Academy: {{projectTitle}}</title>
+    <meta charset="utf-8" />
+    <title>Техномарт</title>
   </head>
   <body>
-
-    <p>Репозиторий создан для обучения на профессиональном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive/htmlcss">HTML и CSS. Профессиональная вёрстка сайтов</a>».</p>
-
+    <header class="main-header">
+      <h1 class="main-header">
+        Интернет-магазин строительных материалов и инструментов для ремонта
+      </h1>
+      <section class="order-menu">
+        <img
+          src="https://imgholder.ru/220x42/8493a8/adb9ca&text=IMAGE+HOLDER&font=kelson"
+          alt="Логотип интернет-магазина Техномарт"
+          width="220"
+          height="42"
+          class="main-logo"
+        />
+        <form
+          action="get"
+          class="searching-form"
+        >
+          <input
+            type="text"
+            class="searching-form__input"
+          />
+        </form>
+        <ul class="order-menu__list">
+          <li class="order-menu__item">
+            <a
+              href="#"
+              class="order-menu__link"
+              >Закладки:0</a
+            >
+          </li>
+          <li class="order-menu__item">
+            <a
+              href="#"
+              class="order-menu__link"
+              >Корзина:0</a
+            >
+          </li>
+          <li class="order-menu__item">
+            <a
+              href="#"
+              class="order-menu__link"
+              >Оформить заказ</a
+            >
+          </li>
+        </ul>
+      </section>
+      <address class="main-header__contacts">
+        <a
+          class="main-header__tel"
+          href="tel:+78005558628"
+          >+7 800 555-86-28</a
+        ><br />
+        г. Санкт-Петербург, наб. Реки Карповки, 5 лит П
+      </address>
+      <section class="authorization-menu">
+        <ul class="authorization-menu__list">
+          <li class="authorization-menu__item">
+            <a
+              href=""
+              class="authorization-menu__link"
+              >Войти</a
+            >
+          </li>
+          <li class="authorization-menu__item">
+            <a
+              href=""
+              class="authorization-menu__link"
+              >Регистрация</a
+            >
+          </li>
+        </ul>
+      </section>
+      <nav class="main-navigation">
+        <ul class="main-navigation__list">
+          <li class="main-navigation__item">
+            <a
+              href="#"
+              class="main-navigation__link"
+              >Главная</a
+            >
+          </li>
+          <li class="main-navigation__item">
+            <a
+              href="#"
+              class="main-navigation__link"
+              >Компания</a
+            >
+          </li>
+          <li class="main-navigation__item">
+            <a
+              href="catalog.html"
+              class="main-navigation__link"
+              >Каталог</a
+            >
+          </li>
+          <li class="main-navigation__item">
+            <a
+              href="#"
+              class="main-navigation__link"
+              >Новости</a
+            >
+          </li>
+          <li class="main-navigation__item">
+            <a
+              href="#"
+              class="main-navigation__link"
+              >Спецпредложения</a
+            >
+          </li>
+          <li class="main-navigation__item">
+            <a
+              href="#"
+              class="main-navigation__link"
+              >Доставка</a
+            >
+          </li>
+          <li class="main-navigation__item">
+            <a
+              href="#"
+              class="main-navigation__link"
+              >Контакты</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main class="main">
+      <section class="promo">
+        <h2 class="visually-hidden">Промо-секция</h2>
+        <ul class="promo__list">
+          <li class="promo__item">
+            <h3>Материалы</h3>
+            <a
+              href=""
+              class="promo__button"
+              >На любой вкус</a
+            >
+            <img
+              src=""
+              alt=""
+              class="promo__icon"
+              width="78"
+              height="72"
+            />
+          </li>
+          <li class="promo__item">
+            Инструмент<a
+              href=""
+              class="promo__button"
+              >На все случаи</a
+            >
+            <img
+              src=""
+              alt=""
+              class="promo__icon"
+              width="78"
+              height="72"
+            />
+          </li>
+          <li class="promo__item">
+            Техника<a
+              href=""
+              class="promo__button"
+              >Для стройки</a
+            >
+            <img
+              src=""
+              alt=""
+              class="promo__icon"
+              width="78"
+              height="72"
+            />
+          </li>
+          <li class="promo__item">
+            Скидки 50%<a
+              href=""
+              class="promo__button"
+              >На 350 товаров</a
+            >
+            <img
+              src=""
+              alt=""
+              class="promo__icon"
+              width="78"
+              height="72"
+            />
+          </li>
+          <li class="promo__item">
+            Доставка<a
+              href=""
+              class="promo__button"
+              >Бесплатно</a
+            >
+            <img
+              src=""
+              alt=""
+              class="promo__icon"
+              width="78"
+              height="72"
+            />
+          </li>
+        </ul>
+        <section class="promo-slider">
+          <input
+            type="button"
+            class="promo-slider__left-btn"
+          />
+          <input
+            type="button"
+            class="promo-slider__right-btn"
+          />
+          <a
+            href="catalog.html"
+            class="basic-button"
+            >Открыть каталог</a
+          >
+        </section>
+      </section>
+    </main>
   </body>
 </html>
