@@ -184,6 +184,159 @@
           >
         </li>
       </ul>
+      <section class="filters">
+        <h3 class="filters__header">Фильтр:</h3>
+        <form
+          action="https://echo.htmlacademy.ru"
+          method="get"
+          class="filter__form"
+        >
+          <fieldset class="price-filter">
+            <legend class="price-filter__legend">Цена:</legend>
+            <div class="price-range">
+              <div class="price-range__scale">
+                <div
+                  class="price-range__bar"
+                  style="width: 30%; margin-left: 20%"
+                ></div>
+              </div>
+              <div
+                class="price-range__toggle price-range__toggle-min"
+                tabindex="0"
+                style="left: 20%"
+              ></div>
+              <div
+                class="price-range__toggle price-range__toggle-max"
+                tabindex="0"
+                style="left: 50%"
+              ></div>
+            </div>
+            <div class="price-input-wrapper">
+              <input
+                class="price-input"
+                type="number"
+                name="lowest-price"
+                value="0"
+              />
+              <input
+                class="price-input"
+                type="number"
+                name="highest-price"
+                value="30000"
+              />
+            </div>
+          </fieldset>
+          <fieldset class="filter">
+            <legend class="filter__legend">Производители:</legend>
+            <ul class="filter__list">
+              <li class="filter__item">
+                <input
+                  class="filter__checkbox"
+                  type="checkbox"
+                  name="manufacture-1"
+                  id="manufacture-1"
+                />
+                <label
+                  class="filter__label"
+                  for="manufacture-1"
+                  >Bosh</label
+                >
+              </li>
+              <li class="filter__item">
+                <input
+                  class="filter__checkbox"
+                  type="checkbox"
+                  name="manufacture-2"
+                  id="manufacture-2"
+                />
+                <label
+                  class="filter__label"
+                  for="manufacture-2"
+                  >Интерскол</label
+                >
+              </li>
+              <li class="filter__item">
+                <input
+                  class="filter__checkbox"
+                  type="checkbox"
+                  name="manufacture-3"
+                  id="manufacture-3"
+                />
+                <label
+                  class="filter__label"
+                  for="manufacture-3"
+                  >Makita</label
+                >
+              </li>
+              <li class="filter__item">
+                <input
+                  class="filter__checkbox"
+                  type="checkbox"
+                  name="manufacture-4"
+                  id="manufacture-4"
+                />
+                <label
+                  class="filter__label"
+                  for="manufacture-4"
+                  >Dewalt</label
+                >
+              </li>
+              <li class="filter__item">
+                <input
+                  class="filter__checkbox"
+                  type="checkbox"
+                  name="manufacture-5"
+                  id="manufacture-5"
+                />
+                <label
+                  class="filter__label"
+                  for="manufacture-5"
+                  >Hitachi</label
+                >
+              </li>
+            </ul>
+          </fieldset>
+          <fieldset class="filter">
+            <legend class="filter__legend">Питание:</legend>
+            <ul class="filter__list">
+              <li class="filter__item">
+                <input
+                  class="filter__radio"
+                  type="radio"
+                  name="power-supply"
+                  value="battery"
+                  id="power-supply-1"
+                />
+                <label
+                  class="filter__label"
+                  for="power-supply-1"
+                  >Аккумуляторные</label
+                >
+              </li>
+              <li class="filter__item">
+                <input
+                  class="filter__radio"
+                  type="radio"
+                  name="power-supply"
+                  value="network"
+                  id="power-supply-2"
+                />
+                <label
+                  class="filter__label"
+                  for="power-supply-2"
+                  >Сетевые</label
+                >
+              </li>
+            </ul>
+          </fieldset>
+          <button
+            class="filters__btn"
+            type="submit"
+          >
+            Показать
+          </button>
+        </form>
+      </section>
     </main>
     <footer class="main-footer">
       <img
