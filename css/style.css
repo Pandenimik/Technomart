@@ -124,6 +124,7 @@ body {
   width: 100%;
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
   padding: 0 130px 0 350px;
   position: relative;
   margin-bottom: 46px;
@@ -134,7 +135,7 @@ body {
   margin: 0;
   padding: 0;
   display: flex;
-  border: 0 solid;
+  flex-wrap: wrap;
 }
 
 .order-menu__link {
