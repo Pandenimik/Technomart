@@ -336,3 +336,52 @@ body {
   background-color: var(--special-background-4);
   color: rgba(255, 255, 255, 0.5);
 }
+
+.promo__list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.promo__item {
+  color: var(--white);
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: 700;
+  width: 300px;
+  height: 123px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.promo__item:nth-child(4n + 1) {
+  background-color: var(--special-ylellow);
+}
+
+.promo__item:nth-child(4n + 2) {
+  background-color: var(--special-blue);
+}
+
+.promo__item:nth-child(4n + 3) {
+  background-color: var(--special-lilac);
+}
+
+.promo__item:nth-child(4n + 4) {
+  background-color: var(--special-greenlight);
+}
+
+.promo__button {
+  font-size: 14px;
+  line-height: 18px;
+  background-color: rgba(255, 255, 255, 0.3);
+  text-decoration: none;
+  color: var(--white);
+  display: flex;
+  width: 135px;
+  height: 38px;
+  justify-content: center;
+  align-items: center;
+}
