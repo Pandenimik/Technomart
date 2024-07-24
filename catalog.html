@@ -36,15 +36,16 @@
   <body>
     <header class="main-header">
       <h1 class="main-header__h1">
-        Интернет-магазин строительных материалов и инструментов для ремонта
+        Интернет-магазин<br />
+        строительных материалов и инструментов для ремонта
       </h1>
       <section class="order-menu">
         <h2 class="visually-hidden">Меню поиска и заказа товара</h2>
         <img
-          src="https://imgholder.ru/220x42/8493a8/adb9ca&text=IMAGE+HOLDER&font=kelson"
+          src="img/logo/header-logo.svg"
           alt="Логотип интернет-магазина Техномарт"
           width="220"
-          height="42"
+          height="47"
           class="main-logo"
         />
         <form
@@ -53,6 +54,7 @@
         >
           <input
             type="text"
+            placeholder="Поиск:"
             class="searching-form__input"
           />
         </form>
@@ -61,72 +63,76 @@
             <a
               href="#"
               class="order-menu__link"
-              >Закладки:0</a
+              >Закладки: 0</a
             >
           </li>
           <li class="order-menu__item">
             <a
               href="#"
-              class="order-menu__link"
-              >Корзина:0</a
+              class="order-menu__link order-menu__link_full-basket"
+              >Корзина: 10</a
             >
           </li>
           <li class="order-menu__item">
             <a
               href="#"
-              class="order-menu__link"
+              class="order-menu__link order-menu__link_special"
               >Оформить заказ</a
             >
           </li>
         </ul>
       </section>
-      <address class="address">
-        <a
-          class="address__tel"
-          href="tel:+78005558628"
-          >+7 800 555-86-28</a
-        ><br />
-        г. Санкт-Петербург, наб. Реки Карповки, 5 лит П
-      </address>
-      <section class="authorization-menu visually-hidden">
-        <h2 class="visually-hidden">Меню авторизации</h2>
-        <ul class="authorization-menu__list">
-          <li class="authorization-menu__item">
-            <a
-              href=""
-              class="authorization-menu__link"
-              >Войти</a
-            >
-          </li>
-          <li class="authorization-menu__item">
-            <a
-              href=""
-              class="authorization-menu__link"
-              >Регистрация</a
-            >
-          </li>
-        </ul>
-      </section>
-      <section class="authorized-menu">
-        <p class="authorized-menu__user-name">Равшан Джамшутович</p>
-        <button class="authorized-menu__log-out-btn">Exit</button>
-        <ul class="authorized-menu__list">
-          <li class="authorized-menu__item">
-            <a
-              href=""
-              class="authorized-menu__link"
-              >Мои заказы</a
-            >
-          </li>
-          <li class="authorized-menu__item">
-            <a
-              href=""
-              class="authorized-menu__link"
-              >Личный кабинет</a
-            >
-          </li>
-        </ul>
-      </section>
+      <div class="address-and-authorization-menu-wrapper">
+        <address class="address">
+          <a
+            class="address__tel"
+            href="tel:+78005558628"
+            >+7 800 555-86-28</a
+          >
+          г. Санкт-Петербург, наб. Реки Карповки, 5 лит П
+        </address>
+        <section class="authorization-menu visually-hidden">
+          <h2 class="visually-hidden">Меню авторизации</h2>
+          <ul class="authorization-menu__list">
+            <li class="authorization-menu__item">
+              <a
+                href=""
+                class="authorization-menu__link authorization-menu__link_enter"
+                >Войти</a
+              >
+            </li>
+            <li class="authorization-menu__item">
+              <a
+                href=""
+                class="authorization-menu__link authorization-menu__link_registration"
+                >Регистрация</a
+              >
+            </li>
+          </ul>
+        </section>
+        <section class="authorized-menu">
+          <p class="authorized-menu__user-name">
+            Равшан Джамшутович
+            <button class="authorized-menu__log-out-btn">Exit</button>
+          </p>
+          <ul class="authorized-menu__list">
+            <li class="authorized-menu__item">
+              <a
+                href=""
+                class="authorized-menu__link"
+                >Мои заказы</a
+              >
+            </li>
+            <li class="authorized-menu__item">
+              <a
+                href=""
+                class="authorized-menu__link"
+                >Личный кабинет</a
+              >
+            </li>
+          </ul>
+        </section>
+      </div>
       <nav class="nav">
         <ul class="nav__list">
           <li class="nav__item">
@@ -145,7 +151,7 @@
           </li>
           <li class="nav__item">
             <a
-              href=""
+              href="#"
               class="nav__link"
               >Каталог</a
             >
